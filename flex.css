@@ -1,0 +1,33 @@
+*{
+    padding: 0%;
+    margin: 0%;
+} 
+ 
+.container{
+    border: 1px dotted black;
+    height: 600px;
+    width: 600px;
+}
+
+.cont{
+    background-color: coral;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.container__1{
+    display: flex;
+    justify-content: space-evenly;
+    background: #353535;
+}
+.container__2{
+    align-content: center;
+    background: gray;
+}
+.container__3{
+    display: flex;
+    flex-flow: column-reverse;
+    background: green;
+}
